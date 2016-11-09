@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Example</title>
+
+</head>
+<body>
+
+ <div class="wrapper">
+  <input type="text" id="address" size="100"><button type="button">Json Value</button>
+ </div>
+
+ <ul id="target">
+  <script id="template" type="text/template">
+    <li>Address : {{jsonGem.address}}</li>
+    <li>Checksum Address : {{jsonGem.checksumAddress}}</li>
+    <li>Private Key : {{jsonGem.privKey}}</li>
+    <li>Public Key : {{jsonGem.pubKey}}</li>
+    <li>publisher : {{jsonGem.publisher}}</li>
+  </script>
+ </ul>
+
+
+  <script type="text/javascript" src="js/mustache.min.js"></script>
+  <script type="text/javascript" src="../eth-json.js"></script>
+</body>
+</html>
