@@ -1,1 +1,2 @@
-# eth-json
+# Eth JSON
+create json file with your wallet info.
